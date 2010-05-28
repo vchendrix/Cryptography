@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Cryptography Demo</title>
+        <vendor>Cryptography Demo</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="https://bb.csueastbay.edu/bbcswebdav/users/bw9974/CS6520/Cryptography.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Dynamic Tree Demo Applet"
+         main-class="cs6520.MillerRabin"
+         width="250"
+         height="200">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>
